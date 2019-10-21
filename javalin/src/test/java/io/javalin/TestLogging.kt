@@ -7,8 +7,9 @@
 package io.javalin
 
 import com.mashape.unirest.http.Unirest
-import io.javalin.misc.HttpUtil
+import io.javalin.testing.HttpUtil
 import io.javalin.misc.captureStdOut
+import io.javalin.testing.TestUtil
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.Test
 import java.io.File

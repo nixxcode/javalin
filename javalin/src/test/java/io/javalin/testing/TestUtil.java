@@ -4,14 +4,15 @@
  * Licensed under Apache 2.0: https://github.com/tipsy/javalin/blob/master/LICENSE
  */
 
-package io.javalin;
+package io.javalin.testing;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.mashape.unirest.http.HttpMethod;
+import io.javalin.Javalin;
 import io.javalin.core.util.Util;
 import io.javalin.http.Handler;
-import io.javalin.misc.HttpUtil;
-import io.javalin.misc.ThrowingBiConsumer;
+import io.javalin.testing.HttpUtil;
+import io.javalin.testing.ThrowingBiConsumer;
 import io.javalin.plugin.json.JavalinJackson;
 import io.javalin.plugin.json.JavalinJson;
 import org.slf4j.LoggerFactory;

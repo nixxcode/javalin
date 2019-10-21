@@ -9,6 +9,7 @@ package io.javalin
 
 import com.mashape.unirest.http.HttpMethod
 import io.javalin.core.util.Header
+import io.javalin.testing.TestUtil
 import org.apache.commons.io.FileUtils
 import org.apache.commons.io.IOUtils
 import org.assertj.core.api.Assertions.assertThat

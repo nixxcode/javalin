@@ -16,6 +16,7 @@ import io.javalin.plugin.json.FromJsonMapper
 import io.javalin.plugin.json.JavalinJackson
 import io.javalin.plugin.json.JavalinJson
 import io.javalin.plugin.json.ToJsonMapper
+import io.javalin.testing.TestUtil
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.Before
 import org.junit.Test

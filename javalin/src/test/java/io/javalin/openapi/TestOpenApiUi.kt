@@ -1,7 +1,7 @@
 package io.javalin.openapi
 
 import io.javalin.Javalin
-import io.javalin.TestUtil
+import io.javalin.testing.TestUtil
 import io.javalin.plugin.openapi.OpenApiOptions
 import io.javalin.plugin.openapi.OpenApiPlugin
 import io.javalin.plugin.openapi.ui.ReDocOptions

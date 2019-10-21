@@ -4,7 +4,7 @@
  * Licensed under Apache 2.0: https://github.com/tipsy/javalin/blob/master/LICENSE
  */
 
-package io.javalin.misc;
+package io.javalin.testing;
 
 import java.util.function.BiConsumer;
 

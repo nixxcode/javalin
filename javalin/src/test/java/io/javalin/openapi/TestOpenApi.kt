@@ -19,7 +19,7 @@ import cc.vileda.openapi.dsl.server
 import cc.vileda.openapi.dsl.tag
 import com.mashape.unirest.http.Unirest
 import io.javalin.Javalin
-import io.javalin.TestUtil
+import io.javalin.testing.TestUtil
 import io.javalin.apibuilder.ApiBuilder.crud
 import io.javalin.apibuilder.CrudHandler
 import io.javalin.http.Context

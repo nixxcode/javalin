@@ -9,6 +9,7 @@ package io.javalin
 
 import com.mashape.unirest.http.Unirest
 import io.javalin.misc.TestServlet
+import io.javalin.testing.TestUtil
 import org.assertj.core.api.Assertions.assertThat
 import org.eclipse.jetty.server.Handler
 import org.eclipse.jetty.server.RequestLog
